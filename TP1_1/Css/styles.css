@@ -1,0 +1,206 @@
+/* Estilos gerais */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #1d1d1f;
+    background-color: #f5f5f7;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    color: #007A5E; /* Verde escuro */
+}
+
+nav ul {
+    text-wrap: nowrap;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    gap: 15px;
+}
+
+nav ul li {
+    padding: 0 0 0 0;
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #1d1d1f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007A5E; /* Verde escuro */
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007A5E; /* Verde escuro */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6e6e73;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1d1d1f;
+    color: #f5f5f7;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #a1a1a6;
+}
+
+/* Estilos específicos para a página inicial */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+#home h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #007A5E; /* Verde escuro */
+}
+
+#home p {
+    font-size: 24px;
+    color: #6e6e73;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #007A5E; /* Verde escuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005f4a; /* Verde mais escuro */
+}
+
+/* Estilos específicos para a página de serviços */
+#servicos {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servico-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.servico-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.servico-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #007A5E; /* Verde escuro */
+    margin-bottom: 10px;
+}
+
+.servico-card p {
+    font-size: 16px;
+    color: #6e6e73;
+}
+
+.navlogo{
+    align-self: center;
+    margin: 0 0 0 0;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #home h2 {
+        font-size: 36px;
+    }
+
+    #home p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
